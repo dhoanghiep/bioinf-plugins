@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bioinf-plugins",
+  "version": "0.1.0",
+  "description": "Bioinformatics workflow plugins: genome-browser reports and related long-read analysis tooling.",
+  "owner": {
+    "name": "danghiep",
+    "email": "dhoanghiep1998@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "igv-report",
+      "source": "./plugins/igv-report",
+      "category": "data",
+      "description": "Build, inspect and edit self-contained IGV.js genome-browser reports (igv-reports HTML), including the track configs that defaults get wrong and a lossless decode/patch workflow for editing a report without rebuilding it."
+    }
+  ]
+}

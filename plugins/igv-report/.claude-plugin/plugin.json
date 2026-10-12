@@ -1,0 +1,9 @@
+{
+  "name": "igv-report",
+  "description": "Build, inspect and edit self-contained IGV.js genome-browser reports (igv-reports HTML pages with an inlined region table and one session per locus). Covers the create_report build, the track-config JSON that the defaults get wrong, a lossless decode/patch script for editing a report when the source data is not on this machine, and the standing long-read isoform-comparison track recipe.",
+  "version": "0.1.0",
+  "author": {
+    "name": "danghiep",
+    "email": "dhoanghiep1998@gmail.com"
+  }
+}
