@@ -11,9 +11,18 @@ A Claude Code plugin marketplace for bioinformatics workflow tooling.
 ## Install
 
 ```bash
-claude plugin marketplace add /path/to/bioinf-plugins     # or the git URL once pushed
+claude plugin marketplace add https://github.com/dhoanghiep/bioinf-plugins.git
 claude plugin install igv-report@bioinf-plugins
 ```
+
+To develop against a local checkout instead, point the marketplace at the directory:
+
+```bash
+claude plugin marketplace add /path/to/bioinf-plugins
+```
+
+An install is pinned to a commit, so after editing the source run
+`claude plugin update igv-report@bioinf-plugins` to pick the change up.
 
 Then start a new Claude Code session; the plugin's skills are picked up automatically.
 
